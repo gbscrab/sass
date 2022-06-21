@@ -1,0 +1,60 @@
+/*fuente de letra*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Fasthand&family=Londrina+Shadow&family=Major+Mono+Display&family=Rampart+One&family=Sevillana&family=Smythe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Fasthand&family=Londrina+Shadow&family=Major+Mono+Display&family=Rampart+One&family=Satisfy&family=Sevillana&family=Smythe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: center;
+    font-size: 30px;
+    a {
+        color: $violeta;
+        text-decoration: none;
+        font-family: 'Bebas Neue'; }
+        
+        span {
+
+            margin: 35px;
+            padding: 10px 20px;
+            margin-top: 0px;
+        
+        }
+        fdfdf
+}
+
+@import "letras";
+@import "responsive";
+@import "propiedades-productos";
+
+
+/*VARIABLE*/
+
+$violeta: rgb(126, 99, 177);
+
+body {
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-invierno-hojas-pinceles-color-pastel_220290-42.jpg?w=2000");
+}
+
+
+
+#grilla-areas {
+    display: grid;
+    grid-template-areas:
+
+        "cabeza"
+        "cuello "
+        "productos"
+        "productosDos ";
+
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+
+}
